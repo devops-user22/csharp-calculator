@@ -591,6 +591,12 @@ class ClsForms : Form
             return false;
         }
     }
+
+    public void clear()
+    {
+        txtDisplay.Text = "";
+
+    }
 }
 
 
